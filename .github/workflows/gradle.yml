@@ -25,7 +25,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
       -
         name: Build and push
-        uses:sarahvenus/20201201@v2
+        uses: sarahvenus/20201201@v2
         with:
           context: .
           file: ./Dockerfile
