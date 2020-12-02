@@ -17,7 +17,7 @@ app.use(
 )
 
 app.get('/', (request, response) => {
-  response.json({ info: 'CRUD Test NRESDS' })
+  response.json({ 'Hello Crud' })
 })
 
 app.get('/users', db.getUsers)
